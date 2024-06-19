@@ -42,6 +42,8 @@ As Like
   <Manager sessionAttributeValueClassNameFilter="java\.lang\.(?:Boolean|Integer|Long|Number|String)|org\.apache\.catalina\.filters\.CsrfPreventionFilter\$LruCache(?:\$1)?|java\.util\.(?:Linked)?HashMap"/>
 </Context>
 ```
+![Screenshot (839)](https://github.com/Shantanu20000/Jenkins/assets/163661534/d4c26002-6ae7-4cc3-9599-24b7b3a684d9)
+
 # Configure file Edit line no 56 to 61.
 ```
 vim ./config/tomcat-users.xml
@@ -111,6 +113,8 @@ As like
           <user username="linux" password="redhat" roles="manager-gui,manager-script,managare-jxm,manager-status,admin-gui"/>
 </tomcat-users>
 ```
+![Screenshot (838)](https://github.com/Shantanu20000/Jenkins/assets/163661534/e52805b1-e768-42b1-9501-82e7cf26d53f)
+
 # Restart Catalina.sh
 ```
 ./bin/catalina.sh start
@@ -123,7 +127,8 @@ As like
 4. Generate syntax
 ```
  deploy adapters: [tomcat9(credentialsId: 'linux', path: '', url: 'http://172.31.36.228:8080')], contextPath: '/', war: '**/*.war'
-```
+```![Screenshot (838)](https://github.com/Shantanu20000/Jenkins/assets/163661534/0b0b4a6c-2166-45e5-ab22-6590b46be80b)
+
 # In Pipeline 
 ```
 pipeline {
