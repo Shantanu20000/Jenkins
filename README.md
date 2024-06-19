@@ -35,6 +35,6 @@ sudo systemctl enable jenkins
 sudo systemctl start jenkins
 ```
 # You can check the status of the Jenkins service using the command:
-'''
+```
 sudo systemctl status jenkins
-'''
+```
