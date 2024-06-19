@@ -129,5 +129,9 @@ pipeline {
     }
 }
 ```
-
+# Mention Private Ip Of Tomcat-server In bellow Path for Quality Gate [Tow Way Hand Shake]
+1. Sonarqube > Administation > Webhook
+2. Fill requied feild
+Save it
+ 
    
