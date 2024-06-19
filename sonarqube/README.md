@@ -85,6 +85,7 @@ mvn sonar:sonar \
    ```
    withSonarQubeEnv(installationName: 'sonar', credentialsId: 'sonar') {
                     sh '/opt/maven/bin/mvn sonar:sonar'
+   }
    ```
 7. Which we mention in Pipeline.
 ```
