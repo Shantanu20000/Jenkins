@@ -113,6 +113,7 @@ As like
           <user username="linux" password="redhat" roles="manager-gui,manager-script,managare-jxm,manager-status,admin-gui"/>
 </tomcat-users>
 ```
+
 ![Screenshot (838)](https://github.com/Shantanu20000/Jenkins/assets/163661534/e52805b1-e768-42b1-9501-82e7cf26d53f)
 
 # Restart Catalina.sh
@@ -127,7 +128,8 @@ As like
 4. Generate syntax
 ```
  deploy adapters: [tomcat9(credentialsId: 'linux', path: '', url: 'http://172.31.36.228:8080')], contextPath: '/', war: '**/*.war'
-```![Screenshot (838)](https://github.com/Shantanu20000/Jenkins/assets/163661534/0b0b4a6c-2166-45e5-ab22-6590b46be80b)
+```
+![Screenshot (838)](https://github.com/Shantanu20000/Jenkins/assets/163661534/0b0b4a6c-2166-45e5-ab22-6590b46be80b)
 
 # In Pipeline 
 ```
