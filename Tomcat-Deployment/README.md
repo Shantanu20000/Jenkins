@@ -2,9 +2,9 @@
 ```
 yum update
 yum install java -y
-curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.87/bin/apache-tomcat-9.0.87.tar.gz
-tar -xzf apache-tomcat-9.0.87.tar.gz
-cd apache-tomcat-9.0.87/
+curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.90/bin/apache-tomcat-9.0.90.tar.gz
+tar -xzf apache-tomcat-9.0.90.tar.gz
+cd apache-tomcat-9.0.90/
 ./bin/catalina.sh start
 ```
 # Hit the Public-Ip:8080
@@ -46,7 +46,7 @@ As Like
 
 # Configure file Edit line no 56 to 61.
 ```
-vim ./config/tomcat-users.xml
+vim ./conf/tomcat-users.xml
 ```
 As like
 ```
