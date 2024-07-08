@@ -41,8 +41,14 @@ flush privileges;
 # Install Sonarqube 
 ```
 yum install unzip -y
+```
+```
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.9.1.zip
+```
+```
 unzip sonarqube-7.9.1.zip
+```
+```
 mv sonarqube-7.9.1 /opt/sonar
 cd /opt 
 ```
